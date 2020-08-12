@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import {createProject } from '../../store/reducers/actions/projectActions'
+import {createProject } from '../../store/actions/projectActions'
 //import { createStore } from 'redux'
 
 class CreateProject extends Component {
